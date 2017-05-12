@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Contacts/Contacts.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addressBookDidChange:) name:CNContactStoreDidChangeNotification object:nil];
+    
     return YES;
+}
+
+- (void)addressBookDidChange:(NSNotification *)noti {
+
+    NSLog(@"通讯录发生改变");
+
 }
 
 
@@ -35,6 +45,10 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addressBookDidChange:) name:CNContactStoreDidChangeNotification object:nil];
+    
+
 }
 
 

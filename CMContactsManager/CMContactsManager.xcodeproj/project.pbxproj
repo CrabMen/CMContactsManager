@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2347E2861EC553C000A4A8BB /* CMContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2347E27F1EC553C000A4A8BB /* CMContactsManager.m */; };
+		2347E2871EC553C000A4A8BB /* CMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2347E2811EC553C000A4A8BB /* CMPerson.m */; };
+		2347E2881EC553C000A4A8BB /* CMSysAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2347E2831EC553C000A4A8BB /* CMSysAddressBookManager.m */; };
+		2347E2891EC553C000A4A8BB /* CMSysContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2347E2851EC553C000A4A8BB /* CMSysContactsManager.m */; };
 		237BBF961EC1A6BA00BC78C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 237BBF951EC1A6BA00BC78C3 /* main.m */; };
 		237BBF991EC1A6BA00BC78C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 237BBF981EC1A6BA00BC78C3 /* AppDelegate.m */; };
 		237BBF9C1EC1A6BA00BC78C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237BBF9B1EC1A6BA00BC78C3 /* ViewController.m */; };
 		237BBF9F1EC1A6BA00BC78C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237BBF9D1EC1A6BA00BC78C3 /* Main.storyboard */; };
 		237BBFA11EC1A6BA00BC78C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237BBFA01EC1A6BA00BC78C3 /* Assets.xcassets */; };
 		237BBFA41EC1A6BA00BC78C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237BBFA21EC1A6BA00BC78C3 /* LaunchScreen.storyboard */; };
-		237BBFAD1EC1A75000BC78C3 /* CMContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 237BBFAC1EC1A75000BC78C3 /* CMContactsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2347E27E1EC553C000A4A8BB /* CMContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMContactsManager.h; sourceTree = "<group>"; };
+		2347E27F1EC553C000A4A8BB /* CMContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMContactsManager.m; sourceTree = "<group>"; };
+		2347E2801EC553C000A4A8BB /* CMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPerson.h; sourceTree = "<group>"; };
+		2347E2811EC553C000A4A8BB /* CMPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPerson.m; sourceTree = "<group>"; };
+		2347E2821EC553C000A4A8BB /* CMSysAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSysAddressBookManager.h; sourceTree = "<group>"; };
+		2347E2831EC553C000A4A8BB /* CMSysAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSysAddressBookManager.m; sourceTree = "<group>"; };
+		2347E2841EC553C000A4A8BB /* CMSysContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSysContactsManager.h; sourceTree = "<group>"; };
+		2347E2851EC553C000A4A8BB /* CMSysContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSysContactsManager.m; sourceTree = "<group>"; };
+		2347E28A1EC5559C00A4A8BB /* CMContactsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMContactsMacro.h; sourceTree = "<group>"; };
 		237BBF911EC1A6BA00BC78C3 /* CMContactsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMContactsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237BBF951EC1A6BA00BC78C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		237BBF971EC1A6BA00BC78C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +39,6 @@
 		237BBFA01EC1A6BA00BC78C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		237BBFA31EC1A6BA00BC78C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		237BBFA51EC1A6BA00BC78C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		237BBFAB1EC1A75000BC78C3 /* CMContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMContactsManager.h; sourceTree = "<group>"; };
-		237BBFAC1EC1A75000BC78C3 /* CMContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMContactsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2347E27D1EC553C000A4A8BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2347E27E1EC553C000A4A8BB /* CMContactsManager.h */,
+				2347E27F1EC553C000A4A8BB /* CMContactsManager.m */,
+				2347E2801EC553C000A4A8BB /* CMPerson.h */,
+				2347E2811EC553C000A4A8BB /* CMPerson.m */,
+				2347E2821EC553C000A4A8BB /* CMSysAddressBookManager.h */,
+				2347E2831EC553C000A4A8BB /* CMSysAddressBookManager.m */,
+				2347E2841EC553C000A4A8BB /* CMSysContactsManager.h */,
+				2347E2851EC553C000A4A8BB /* CMSysContactsManager.m */,
+				2347E28A1EC5559C00A4A8BB /* CMContactsMacro.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		237BBF881EC1A6BA00BC78C3 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +87,7 @@
 		237BBF931EC1A6BA00BC78C3 /* CMContactsManager */ = {
 			isa = PBXGroup;
 			children = (
+				2347E27D1EC553C000A4A8BB /* Classes */,
 				237BBF971EC1A6BA00BC78C3 /* AppDelegate.h */,
 				237BBF981EC1A6BA00BC78C3 /* AppDelegate.m */,
 				237BBF9A1EC1A6BA00BC78C3 /* ViewController.h */,
@@ -70,8 +97,6 @@
 				237BBFA21EC1A6BA00BC78C3 /* LaunchScreen.storyboard */,
 				237BBFA51EC1A6BA00BC78C3 /* Info.plist */,
 				237BBF941EC1A6BA00BC78C3 /* Supporting Files */,
-				237BBFAB1EC1A75000BC78C3 /* CMContactsManager.h */,
-				237BBFAC1EC1A75000BC78C3 /* CMContactsManager.m */,
 			);
 			path = CMContactsManager;
 			sourceTree = "<group>";
@@ -115,6 +140,7 @@
 				TargetAttributes = {
 					237BBF901EC1A6BA00BC78C3 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HBW48U6989;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,8 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237BBFAD1EC1A75000BC78C3 /* CMContactsManager.m in Sources */,
+				2347E2861EC553C000A4A8BB /* CMContactsManager.m in Sources */,
+				2347E2871EC553C000A4A8BB /* CMPerson.m in Sources */,
 				237BBF9C1EC1A6BA00BC78C3 /* ViewController.m in Sources */,
+				2347E2881EC553C000A4A8BB /* CMSysAddressBookManager.m in Sources */,
+				2347E2891EC553C000A4A8BB /* CMSysContactsManager.m in Sources */,
 				237BBF991EC1A6BA00BC78C3 /* AppDelegate.m in Sources */,
 				237BBF961EC1A6BA00BC78C3 /* main.m in Sources */,
 			);
@@ -278,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HBW48U6989;
 				INFOPLIST_FILE = CMContactsManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -290,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HBW48U6989;
 				INFOPLIST_FILE = CMContactsManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -317,6 +348,7 @@
 				237BBFAA1EC1A6BA00BC78C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

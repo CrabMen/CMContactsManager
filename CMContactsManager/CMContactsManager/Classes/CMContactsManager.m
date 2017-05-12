@@ -9,6 +9,11 @@
 #import "CMContactsManager.h"
 #import <UIKit/UIKit.h>
 #import <Contacts/Contacts.h>
+#import <ContactsUI/ContactsUI.h>
+
+@interface CMContactsManager () <CNContactPickerDelegate>
+
+@end
 
 @implementation CMContactsManager
 
@@ -43,17 +48,8 @@
         [[UIApplication sharedApplication]openURL:url];
         
     }
-    
-    
-
 }
 
-//- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
-//{
-//
-//
-//
-//}
 
 
 
